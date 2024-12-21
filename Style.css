@@ -1,0 +1,40 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px rgb(73, 144, 210);
+}
+label {
+  display: block;
+  margin: 10;
+}
+button,
+input {
+  border-radius: 4px;
+  height: 20px;
+  width: 100%;
+  border: 1px solid;
+}
+button {
+  background-color: rgb(72, 74, 196);
+  border-color: rgba(28, 210, 28, 0.458);
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-weight: 400;
+  font: bold;
+  color: #ffffff;
+}
+textarea {
+  width: 100%;
+}
+.cancel {
+  background-color: red;
+  font-weight: 400;
+  font: bold;
+  color: #ffffff;
+}
