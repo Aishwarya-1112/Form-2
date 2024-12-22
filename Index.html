@@ -20,20 +20,23 @@
         type="text"
         id="Name"
         name="name"
+        required
       />
       <label for="email">Email ID</label>
       <input
         type="email"
         name="email"
+        required
       />
       <label for="password">Password</label>
       <input
         type="password"
         name="password"
         id="password"
+        required
       />
       <label for="Gender">Gender</label>
-      <select>
+      <select required>
         <option value=""></option>
         <option value="">Female</option>
         <option value="">Male</option>
@@ -45,6 +48,7 @@
         id=""
         rows="5"
         cols="10"
+        required
       ></textarea>
       <button type="submit">Submit</button>
       <button
